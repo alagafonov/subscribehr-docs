@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Subscribe-HR Developer Documentation'
+project = u'Subscribe-HR Platform'
 copyright = u'2018, Subscribe-HR'
 author = u'Subscribe-HR'
 
@@ -54,7 +54,7 @@ author = u'Subscribe-HR'
 # built documents.
 #
 # The short X.Y version.
-version = u''
+version = u'latest'
 # The full version, including alpha/beta/rc tags.
 release = u''
 
@@ -82,7 +82,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -99,7 +99,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Subscribe-HRDeveloperDocumentationdoc'
+htmlhelp_basename = 'Subscribe-HRPlatformdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -126,7 +126,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Subscribe-HRDeveloperDocumentation.tex', u'Subscribe-HR Developer Documentation Documentation',
+    (master_doc, 'Subscribe-HRPlatform.tex', u'Subscribe-HR Platform Documentation',
      u'Subscribe-HR', 'manual'),
 ]
 
@@ -136,7 +136,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'subscribe-hrdeveloperdocumentation', u'Subscribe-HR Developer Documentation Documentation',
+    (master_doc, 'subscribe-hrplatformdocumentation', u'Subscribe-HR Platform Documentation',
      [author], 1)
 ]
 
@@ -147,8 +147,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Subscribe-HRDeveloperDocumentation', u'Subscribe-HR Developer Documentation Documentation',
-     author, 'Subscribe-HRDeveloperDocumentation', 'One line description of project.',
+    (master_doc, 'Subscribe-HRPlatformDocumentation', u'Subscribe-HR Platform Documentation',
+     author, 'Subscribe-HRPlatformDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
 
