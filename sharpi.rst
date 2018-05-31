@@ -15,9 +15,7 @@ This documentation will provide full API reference for each block and include ex
 
    sharpi_authentication
    sharpi_architecture
-   sharpi_inputoutputformats
    sharpi_jsonpath
    sharpi_dateformat
    sharpi_reference
    sharpi_tutorial
-   
