@@ -2,7 +2,7 @@ Integration Tool (SHaRpi)
 =========================
 
 Our developers are always trying to come up with clever code names for dev tools and SHaRpi is no exception. 
-SHaRpi is an integration app that allows linking of two or more APIs together using only a json template.
+SHaRpi is an integration app that allows linking of two or more APIs together using only a JSON template.
 It also includes detailed logging and integration with common Subscribe-HR features like :doc:`SSQL </ssql>`.
 
 The definition is a combination of independent blocks each with its own purpose. Blocks are then combined into a

@@ -3,7 +3,7 @@
 Architecture
 ============
 
-SHaRpi is architected to be highly configurable to ensure that interfaces to third party products can be easily setup 
+SHaRpi is architected to be highly configurable to ensure that interfaces to third party products can be easily setup
 and adjusted based on client requirements. Usually customers have unique needs in relation to data flow 
 directions, field mappings, scheduling and accessibility of end points. By using SHaRpi these modifications are easily 
 implemented in a configuration file rather than by performing complex customisations.
@@ -46,6 +46,8 @@ based on information that was received from another operation. For a Datum conne
 and it would not make sense to pass them in. Examples below show different formats for input and output for each action 
 type.
 
+.. _architecture-restful-input:
+
 RESTful Input
 """""""""""""
 
@@ -59,7 +61,7 @@ RESTful Input
 
 **Headers** 
  
- | Will be appeneded to request headers.
+ | Will be appended to request headers.
 
 **Data** 
  
@@ -87,6 +89,8 @@ RESTful Input
             }
         ]
     }
+
+.. _architecture-restful-output:
 
 RESTful Output
 """"""""""""""
@@ -222,7 +226,7 @@ Iterator
 ^^^^^^^^
 
 Iterator action will loop through the data. It can be thought of as standard for loop in programming. Selector
-attribute will determin what data needs to be iterated over.
+attribute will determine what data needs to be iterated over.
 
 Conside the following example which is an output from Datum operation.
 
@@ -264,7 +268,7 @@ Map
 Map action will receive an input perform data transformation based on mappings specified and return transformed data 
 structure.
 
-Conside the following example which is a sample output from another operation.
+Consider the following example which is a sample output from another operation.
 
 .. code-block:: json
 
@@ -276,7 +280,7 @@ Conside the following example which is a sample output from another operation.
         }
     }
 
-The following transofrmation will then be applied.
+The following transformation will then be applied.
 
 .. code-block:: json
 

@@ -150,7 +150,7 @@ Parameters
     | Type: String
     | Required: Yes
     | Example: /api/v1/employees/:Id
-    | Description: HTTP end point path. Supports merge parametrs e.g. :Id. Will be merged from Paramers.Url when passed in input.
+    | Description: HTTP end point path. Supports merge parameters e.g. :Id. Will be merged from Parameters.Url when passed in input.
 
 **ErrorHandlingStyle**
 
@@ -413,7 +413,7 @@ Pipeline
 --------
 
 Pipeline is a list of actions that need to be performed in a sequence. Pipelines can be nested and trigger other 
-pipelines. There are a number of action types that can be performed within pipeline which are onlined below.
+pipelines. There are a number of action types that can be performed within pipeline which are outlined below.
 
 Common Action Parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -555,4 +555,3 @@ Inherits all `Common Action Parameters`_
 
 
 
- 

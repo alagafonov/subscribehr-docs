@@ -1,25 +1,23 @@
 Authentication
 ==============
 
-TO DO
+Most connections will require some sort of authentication to occur to enable access to remote resources. Authentication
+configuration is performed through Integration > Authentication screen and then linked to configuration file using
+record Id. A number of authentication types are supported. Additional types will be added as required.
 
-.. note::
+OAuth 2
+^^^^^^^
 
-    Our code base is still maturing and the core team doesn't yet recommend
-    running this as a pre-commit hook due to the number of changes this will
-    cause while constructing a pull request. Independent pull requests with
-    linting changes would be a great help to making this possible.
+This is probably the most common authentication type used with RESTful APIs. Multiple Grant Types are supported
+including ``Authorization Code``. OAuth dance can be performed through this page by clicking on ``Generate`` link.
+SHaRpi will then keep track of access and refresh tokens (if available) and request new tokens as required.
 
-.. warning:: We currently do not provide caching on this API. 
-             If the remote source you are including changes their page structure or deletes the content,
-             your embed will break.
+.. image:: _static/auth_oauth2.png
 
-.. code-block:: javascript
+Authorization Header
+^^^^^^^^^^^^^^^^^^^^
 
-    {
-        a: "b"
-    }
+A simple header authentication method where access token is passed as a header with each request. This type allows
+users to specify header name, method (e.g. Bearer) and access code.
 
-.. code:: bash
-
-    pip install sphinx_rtd_theme
+.. image:: _static/auth_custom_header.png
