@@ -36,8 +36,8 @@ One way to describe connections is they are client libraries designed to handle 
 of communication to local or remote resources and allow operations to perform actions.
 
 Because we are trying to export data from Subscribe-HR the first connection that needs to be created is Datum. Datum
-is internal name of data layer that is used in Subscribe-HR platform to handle all underlying data actions. Think of
-it as our proprietary ORM library.
+is the internal name of data layer that is used in the Subscribe-HR platform to handle all underlying data actions.
+Think of it as our proprietary ORM library.
 
 Datum connection definition is simple because all information about it is already available through the system.
 It simply looks like this.

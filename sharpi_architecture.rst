@@ -10,8 +10,8 @@ implemented in a configuration file rather than by performing complex customisat
 
 The architecture of the tool consists of a number of predefined blocks (or as we call them actions) each with its own 
 purpose. Actions then get connected together to form a pipeline. Each action performs a unique task like extracting 
-data from data source or transforming it into another format. Each action is logged into Subscribe-HR logging platform 
-including input and output making it easy to debug.
+data from data source or transforming it into another format. Each action is logged into the Subscribe-HR logging
+platform including input and output making it easy to debug.
 
 The data format that is used to pass information between blocks is JSON. Some operations may not always be capable of 
 returning JSON in which case conversion is performed. Below you will find examples of input and output data from
