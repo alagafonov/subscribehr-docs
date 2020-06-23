@@ -17,5 +17,6 @@ If you are looking for information about our RESTful API it can be found `here <
    :caption: Developer Documentation
 
    getting_started
+   apps
    sharpi
    ssql
